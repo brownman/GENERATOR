@@ -1,4 +1,0 @@
-patch:
------
-1. create a pathch for some bug fixes
-2. create a package which apply these patch during the installation procces

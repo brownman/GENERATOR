@@ -1,8 +1,0 @@
-1. binary result (deb or rpm file)
-2. source package
-3. reproduction instructions
-4. resources used
-
-Linux integration team
-Zend
-Generate a patch for one of these fixes based on version 0.12

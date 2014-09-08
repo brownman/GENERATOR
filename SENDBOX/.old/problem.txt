@@ -1,4 +1,0 @@
-packaging of:
-ssh2 PECL extension version 0.12 for a Linux distribution.
-
-
