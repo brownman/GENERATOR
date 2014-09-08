@@ -1,0 +1,3 @@
+$dir_self/proxy.sh
+$dir_root/SCRIPT/SERVICE/service.sh
+$dir_root/SCRIPT/LIBRARY/library.cfg
