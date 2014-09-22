@@ -1,0 +1,2 @@
+exec -c
+env

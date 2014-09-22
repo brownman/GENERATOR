@@ -5,13 +5,14 @@ ensure_install(){
   use print
   use commander
   use ensure
-  ensure ln_tmp $0
+ # ensure ln_tmp $0
 }
 
-ensure_install
 cmd="$@"
     #notify-send -t 6000 -u critical "$str1" "$str2"
 
 notify-send -t 1000 -u critical PROXY "$cmd" &
-( eval "$cmd" 2>/tmp/err ) || $gxmessage_err
-echo 2>&1  res: $res
+
+ensure_install
+( eval "$cmd" 2>/tmp/err ) || $gxmessage1
+#echo 2>&1  res: $res

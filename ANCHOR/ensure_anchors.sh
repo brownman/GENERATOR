@@ -1,13 +1,15 @@
-exec -c
+
+
+
+#shopt -s expand_aliases
+#exec -c
 set -u
+
+test -f /tmp/library.cfg || { echo 1>&2 install the library first; exit 1; }
 source /tmp/library.cfg
+test -d "/tmp/dir_root" || exiting
 
-use commander
-use ensure
-
-#dir_root=${dir_root:-$PWD}
-dir_self=$( where_am_i $0 )
-
+pushd $(dirname $0) >/dev/null
 while read line;do
   test -n "$line" || exit
   echo
@@ -17,4 +19,4 @@ commander ensure ln_tmp $file
 echo
 done < anchors.txt
 
-
+popd >/dev/null

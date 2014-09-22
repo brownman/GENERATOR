@@ -1,3 +1,4 @@
-$dir_self/proxy.sh
-$dir_root/SCRIPT/SERVICE/service.sh
-$dir_root/SCRIPT/LIBRARY/library.cfg
+./proxy.sh
+/tmp/dir_root/SCRIPT/prototypes/BANK/menu.yaml/pilot.sh
+/tmp/dir_root/SCRIPT/SERVICE/service.sh
+/tmp/dir_root/SCRIPT/LIBRARY/library.cfg
